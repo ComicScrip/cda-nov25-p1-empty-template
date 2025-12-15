@@ -7,12 +7,13 @@ import { buildSchema } from "type-graphql";
 import UserResolver from "./resolvers/UserResolver";
 
 async function start() {
-  await db.initialize()
-  const schema = await buildSchema({ resolvers: [UserResolver] })
+  await db.initialize();
+  const schema = await buildSchema({ resolvers: [UserResolver] });
   const server = new ApolloServer({ schema });
-  const { url } = await startStandaloneServer(server, { listen: { port: env.GRAPHQL_SERVER_PORT } })
+  const { url } = await startStandaloneServer(server, {
+    listen: { port: env.GRAPHQL_SERVER_PORT },
+  });
   console.log(`graphql server ready on ${url}`);
 }
 
 start();
-

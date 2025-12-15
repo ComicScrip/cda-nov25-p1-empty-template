@@ -1,9 +1,9 @@
 {
-    "recommendations": [
-        "bradlc.vscode-tailwindcss",
-        "biomejs.biome",
-        "mikestead.dotenv",
-        "oderwat.indent-rainbow",
-        "YoavBls.pretty-ts-errors",
-    ]
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "biomejs.biome",
+    "mikestead.dotenv",
+    "oderwat.indent-rainbow",
+    "YoavBls.pretty-ts-errors"
+  ]
 }
