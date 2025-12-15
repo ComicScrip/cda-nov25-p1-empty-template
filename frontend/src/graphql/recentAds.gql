@@ -1,8 +1,0 @@
-query recentAds {
-  ads {
-    id
-    title
-    price
-    pictureUrl
-  }
-}

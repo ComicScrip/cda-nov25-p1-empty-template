@@ -11,8 +11,8 @@ export default function Layout({ children, pageTitle }: LayoutProps) {
   return (
     <>
       <Head>
-        <title>{`The Good Corner - ${pageTitle}`}</title>
-        <meta name="description" content="ads website" />
+        <title>{`My app - ${pageTitle}`}</title>
+        <meta name="description" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
